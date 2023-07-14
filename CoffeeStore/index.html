@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Coffee</title>
+</head>
+<body>
+
+    <!-- Header and navbar section -->
+    <header class="header">
+        <section class="flex">
+            <a href="#home" class="logo">COFFEE</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#Menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+    </header>
+    <!-- Home section -->
+    <div class="home-page">
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Cafe Heaven</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nam quas optio, dolor deleniti dolores rerum. Adipisci aliquid quidem repudiandae.</p>
+                <a href="#about" class="btn">About Us</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="image">
+            <img src="./assets/drinking coffee-bro.svg" alt=""/>
+        </div>
+        <div class="content">
+            <h3>Get A Cup Of Coffee and Read A Book</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio sunt reprehenderit hic id eos sequi reiciendis ipsum animi, corrupti voluptatum soluta corporis quod</p>
+            <a href="#menu" class="btn">Our Menu</a>
+        </div>
+    </section>
+
+        <section class="facility">
+            <div class="heading">
+                <img src="./assets/pngegg (1).png" alt="">
+                <h3>Our Heavenly Coffees</h3>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <img src="./assets/coffee.png" alt="">
+                    <h3>Coffees</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae consequatur</p>
+                </div>
+                <div class="box">
+                    <img src="./assets/coffee-beans.png" alt="">
+                    <h3>Coffee Beans</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae consequatur</p>
+                </div>
+                <div class="box">
+                    <img src="./assets/croissant.png" alt="">
+                    <h3>Breakfast</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae consequatur</p>
+                </div>
+                <div class="box">
+                    <img src="./assets/coffee-cup (1).png" alt="">
+                    <h3>On The Road</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae consequatur</p>
+                </div>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="heading">
+                <img src="./assets/pngegg (1).png" alt="">
+                <h3>Popular</h3>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <img src="./assets/pngegg (2).png" alt="">
+                    <h3>Frappe Latte</h3>
+                </div>
+                <div class="box">
+                    <img src="./assets/pngegg (7).png" alt="">
+                    <h3>White Mocha</h3>
+                </div>
+                <div class="box">
+                    <img src="./assets/pngegg (4).png" alt="">
+                    <h3>Cuban Espresso</h3>
+                </div>
+                <div class="box">
+                    <img src="./assets/pngegg (5).png" alt="">
+                    <h3>Cappuccino</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="heading">
+                <img src="./assets/pngegg (1).png" alt="">
+                <h3>Check Our Gallery</h3>
+            </div>
+            <div class="box-container">
+                <img src="./assets/coffee-g2e5aa7a96_1920.jpg" alt="">
+                <img src="./assets/coffee-g4d7358376_1920.jpg" alt="">
+                <img src="./assets/coffee-g7ed3f809b_1920.jpg" alt="">
+                <img src="./assets/coffee-g9f6cdb81f_1920.jpg" alt="">
+                <img src="./assets/cupcake-g18c3f518c_1920.jpg" alt="">
+                <img src="./assets/coffee-gf3f2181c2_1920.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="heading">
+                <img src="./assets/pngegg (1).png" alt="">
+                <h3>Contact Us</h3>
+            </div>
+
+            <div class="row">
+                <div class="image">
+                    <img src="./assets/Call center-pana.svg" alt="" >
+                </div>
+                <form action="" method="post">
+                    <h3>Email Us For More Info</h3>
+                    <input type="text" name="name" required class="box" maxlength="20" placeholder="Enter your name">
+                    <input type="text" name="email" required class="box" maxlength="20" placeholder="email@name.com">
+                    <input type="number" name="number" required class="box" maxlength="20" placeholder="Enter your number" min="0" max="9999999999"
+                    onkeypress="if(this.value.length == 10) return false">
+                    <input type="submit" name="send" class="btn" value="send message">
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Our Email</h3>
+                    <p>gm@cafe.co.za</p>
+                    <p>rudy@cafe.co.za</p>
+                </div>
+                <div class="box">
+                    <i class="fas far fa-clock"></i>
+                    <h3>We Open till</h3>
+                    <p>06:00 to 21:00</p>
+                    <p>We are closed on holidays</p>
+                </div>
+                <div class="box">
+                    <i class="fas fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Durban: 23 East Avenue, St Port John</p>
+                    <p>Johannesburg: 243 Birshley, Marshalltown</p>
+                    <p>Cape Town: 32 Highland, Victoria</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <h3>Our Number</h3>
+                    <p>0623547721</p>
+                    <p>0832828567</p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
